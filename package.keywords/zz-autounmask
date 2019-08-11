@@ -20,3 +20,5 @@
 # required by =dev-libs/wlroots-9999 (argument)
 # move dev-libs/wlroots gui-libs/wlroots
 =gui-libs/wlroots-9999 **
+# required by dev-lang/python:3.7 (argument)
+=dev-lang/python-3.7.4-r1 ~amd64
