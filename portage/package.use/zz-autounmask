@@ -7,9 +7,9 @@ sys-libs/glibc doc
 x11-libs/libdrm libkms
 # x11-libs/libxcb xkb
 # x11-wm/blackbox truetype
-x11-libs/libXi doc
+# x11-libs/libXi doc
 media-libs/libpng
-media-libs/mesa gallium gles2 dri3 gbm wayland bindist llvm unwind opencl -classic
+media-libs/mesa gallium gles2 dri3 gbm wayland bindist llvm unwind opencl classic 
 x11-apps/mesa-progs egl gles2 wayland -X
 # www-client/firefox bindist
 # */* PYTHON_TARGETS: -* python2_7 python3_6 python3_7 PYTHON_SINGLE_TARGET: -* python3_7
@@ -35,8 +35,8 @@ app-text/xmlto text
 media-libs/harfbuzz -graphite
 x11-libs/gdk-pixbuf -X
 x11-libs/pango -X wayland
-x11-libs/cairo -X -xcb opengl debug
-# x11-libs/gtk+ -X wayland examples
+x11-libs/cairo -X -xcb -opengl gles2 debug utils
+x11-libs/gtk+ -X wayland examples
 # x11-libs/wxGTK -X webkit
 # net-libs/webkit-gtk -X wayland -opengl
 # www-client/chromium -hangouts -proprietary-codecs L10N: -*

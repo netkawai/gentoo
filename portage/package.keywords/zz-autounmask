@@ -22,3 +22,7 @@
 =gui-libs/wlroots-9999 **
 # required by dev-lang/python:3.7 (argument)
 =dev-lang/python-3.7.4-r1 ~amd64
+=media-libs/mesa-9999 **
+# required by media-libs/mesa-9999::gentoo
+# required by =media-libs/mesa-9999 (argument)
+=x11-libs/libdrm-2.4.99 ~amd64
