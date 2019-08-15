@@ -37,6 +37,7 @@ x11-libs/gdk-pixbuf -X
 x11-libs/pango -X wayland
 x11-libs/cairo -X -xcb -opengl gles2 debug utils
 x11-libs/gtk+ -X wayland examples
+# x11-wm/mutter wayland -X -udev
 # x11-libs/wxGTK -X webkit
 # net-libs/webkit-gtk -X wayland -opengl
 # www-client/chromium -hangouts -proprietary-codecs L10N: -*
