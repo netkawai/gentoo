@@ -39,7 +39,9 @@ x11-libs/cairo -X -xcb -opengl gles2 debug utils
 x11-libs/gtk+ -X wayland examples
 # x11-wm/mutter wayland -X -udev
 # x11-libs/wxGTK -X webkit
-# net-libs/webkit-gtk -X wayland -opengl
+net-libs/webkit-gtk -X wayland -libnotify -opengl -nsplugin  -geolocation -webgl
+media-libs/gst-plugins-base gles2 wayland gbm -opengl
+media-libs/gst-plugins-bad gles2 wayland -opengl
 # www-client/chromium -hangouts -proprietary-codecs L10N: -*
 # dev-util/electron -system-ffmpeg -proprietary-codecs -gtk3
 # move dev-libs/wlroots gui-libs/wlroots
@@ -59,3 +61,4 @@ gui-libs/wlroots -X -x11-backend
 # required by dev-libs/sway-1.0_rc2::gentoo
 # required by sway (argument)
 >=dev-python/markupsafe-0.23 python_targets_python2_7
+media-libs/harfbuzz icu
