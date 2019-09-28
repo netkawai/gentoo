@@ -1,0 +1,16 @@
+# required by media-libs/mesa-18.2.8::gentoo
+# required by x11-libs/cairo-1.16.0-r2::gentoo[opengl]
+# required by media-libs/harfbuzz-2.0.2-r1::gentoo[cairo]
+# required by x11-libs/pango-1.42.4::gentoo
+# required by dev-libs/sway-1.0_rc2::gentoo
+# required by sway (argument)
+>=dev-python/mako-1.0.6 python_targets_python2_7
+# required by dev-python/mako-1.0.6::gentoo
+# required by media-libs/mesa-18.2.8::gentoo
+# required by x11-libs/cairo-1.16.0-r2::gentoo[opengl]
+# required by media-libs/harfbuzz-2.0.2-r1::gentoo[cairo]
+# required by x11-libs/pango-1.42.4::gentoo
+# required by dev-libs/sway-1.0_rc2::gentoo
+# required by sway (argument)
+>=dev-python/markupsafe-0.23 python_targets_python2_7
+
