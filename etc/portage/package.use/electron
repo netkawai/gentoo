@@ -1,0 +1,1 @@
+dev-util/electron -system-ffmpeg -proprietary-codecs -system-libvpx L10N="-*"
