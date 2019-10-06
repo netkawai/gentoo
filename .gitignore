@@ -1,0 +1,14 @@
+/usr/*
+/bin/*
+/var/*
+/sbin/*
+/dev/*
+/sys/*
+/proc/*
+/media/*
+/mnt/*
+/run/*
+/tmp/*
+/lib/*
+/lib64/*
+/opt/*
