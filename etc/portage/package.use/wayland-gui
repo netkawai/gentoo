@@ -1,3 +1,18 @@
+# package.use
+x11-libs/libdrm libkms
+media-libs/libpng
+media-libs/mesa gallium gles2 dri3 gbm wayland bindist llvm unwind opencl classic 
+x11-apps/mesa-progs egl gles2 wayland -X
+dev-libs/wayland FEATURES: no-strip
+sys-apps/util-linux static-libs
+sys-devel/llvm
+sys-libs/zlib minizip
+app-text/xmlto text
+media-libs/harfbuzz -graphite
+x11-libs/gdk-pixbuf -X jpeg
+x11-libs/pango -X wayland
+x11-libs/cairo -X -xcb -opengl gles2 debug utils
+x11-libs/gtk+ -X wayland examples
 # required by media-libs/mesa-18.2.8::gentoo
 # required by x11-libs/cairo-1.16.0-r2::gentoo[opengl]
 # required by media-libs/harfbuzz-2.0.2-r1::gentoo[cairo]
@@ -11,6 +26,6 @@
 # required by media-libs/harfbuzz-2.0.2-r1::gentoo[cairo]
 # required by x11-libs/pango-1.42.4::gentoo
 # required by dev-libs/sway-1.0_rc2::gentoo
-# required by sway (argument)
 >=dev-python/markupsafe-0.23 python_targets_python2_7
+media-libs/harfbuzz icu
 
