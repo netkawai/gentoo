@@ -1,0 +1,3 @@
+app-crypt/gcr gtk
+media-libs/gst-plugins-base gbm
+net-libs/webkit-gtk -opengl -geolocation

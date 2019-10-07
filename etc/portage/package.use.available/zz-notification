@@ -1,0 +1,12 @@
+x11-libs/gtk+:3 X
+# required by x11-libs/gtk+-3.24.10::gentoo
+# required by x11-themes/adwaita-icon-theme-3.30.1::gentoo
+media-libs/libepoxy X
+# required by x11-libs/gtk+-3.24.10::gentoo
+# required by x11-themes/adwaita-icon-theme-3.30.1::gentoo
+x11-libs/cairo X
+# required by x11-libs/gtk+-3.24.10::gentoo[X]
+# required by x11-themes/adwaita-icon-theme-3.30.1::gentoo
+media-libs/mesa X
+x11-base/xorg-server wayland -xorg -glamor 
+x11-libs/libxcb xkb
