@@ -11,7 +11,7 @@ media-libs/harfbuzz -graphite
 x11-libs/gdk-pixbuf -X jpeg
 x11-libs/pango -X wayland
 x11-libs/cairo -X -xcb -opengl gles2 debug utils
-x11-libs/gtk+ -X wayland examples
+x11-libs/gtk+ -X wayland examples gtk-doc
 # required by media-libs/mesa-18.2.8::gentoo
 # required by x11-libs/cairo-1.16.0-r2::gentoo[opengl]
 # required by media-libs/harfbuzz-2.0.2-r1::gentoo[cairo]
