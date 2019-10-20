@@ -29,3 +29,7 @@ x11-libs/gtk+ -X wayland examples
 #>=dev-python/markupsafe-0.23 python_targets_python2_7
 media-libs/harfbuzz icu
 sys-auth/pambase elogind
+media-libs/gst-plugins-base -opengl
+media-libs/gst-plugins-bad -opengl
+media-libs/gst-plugins-good -opengl
+media-libs/cogl -opengl

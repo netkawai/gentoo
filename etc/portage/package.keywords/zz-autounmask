@@ -26,3 +26,10 @@
 # required by media-libs/mesa-9999::gentoo
 # required by =media-libs/mesa-9999 (argument)
 =x11-libs/libdrm-2.4.99 ~amd64
+# required by dev-libs/wpebackend-fdo (argument)
+=dev-libs/wpebackend-fdo-1.4.0 ~amd64
+# required by dev-libs/wpebackend-fdo-1.4.0::lanodanOverlay
+# required by dev-libs/wpebackend-fdo (argument)
+=net-libs/libwpe-1.4.0.1 ~amd64
+# required by net-libs/wpewebkit (argument)
+=net-libs/wpewebkit-2.26.1 ~amd64
