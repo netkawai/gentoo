@@ -1,0 +1,5 @@
+x11-libs/cairo xcb
+media-libs/libepoxy X
+media-libs/mesa X
+x11-base/xorg-server -xorg
+dev-libs/weston wayland-compositor examples jpeg xwayland

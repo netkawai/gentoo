@@ -33,3 +33,8 @@
 =net-libs/libwpe-1.4.0.1 ~amd64
 # required by net-libs/wpewebkit (argument)
 =net-libs/wpewebkit-2.26.1 ~amd64
+# required by electron (argument)
+=dev-util/electron-2.0.17-r2 ~amd64
+# required by dev-util/electron-2.0.17-r2::gentoo
+# required by electron (argument)
+=app-eselect/eselect-electron-2.1 ~amd64

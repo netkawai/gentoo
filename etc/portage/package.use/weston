@@ -1,1 +1,1 @@
-dev-libs/weston wayland-compositor examples jpeg
+../package.use.available/weston
