@@ -2,3 +2,6 @@ net-libs/wpewebkit examples experimental jpeg2k
 # required by dev-util/electron-2.0.17-r2::gentoo[system-libvpx]
 # required by electron (argument)
 >=media-libs/libvpx-1.7.0 svc postproc
+# required by sys-apps/nix-2.3.1::gentoo
+# required by nix (argument)
+>=dev-libs/boost-1.71.0 context

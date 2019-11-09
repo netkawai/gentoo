@@ -1,7 +1,7 @@
 # package.use
 x11-libs/libdrm libkms
 media-libs/libpng
-media-libs/mesa gallium gles2 dri3 gbm wayland bindist llvm unwind opencl classic 
+media-libs/mesa gallium gles2 dri3 vulkan gbm wayland bindist llvm unwind opencl classic
 x11-apps/mesa-progs egl gles2 wayland -X
 dev-libs/wayland FEATURES: no-strip
 sys-apps/util-linux static-libs
@@ -13,23 +13,11 @@ x11-libs/pango -X wayland
 x11-libs/cairo -X -xcb -opengl gles2 debug utils
 x11-libs/gtk-doc
 x11-libs/gtk+ -X wayland examples
-# required by media-libs/mesa-18.2.8::gentoo
-# required by x11-libs/cairo-1.16.0-r2::gentoo[opengl]
-# required by media-libs/harfbuzz-2.0.2-r1::gentoo[cairo]
-# required by x11-libs/pango-1.42.4::gentoo
-# required by dev-libs/sway-1.0_rc2::gentoo
-# required by sway (argument)
-#>=dev-python/mako-1.0.6 python_targets_python2_7
-# required by dev-python/mako-1.0.6::gentoo
-# required by media-libs/mesa-18.2.8::gentoo
-# required by x11-libs/cairo-1.16.0-r2::gentoo[opengl]
-# required by media-libs/harfbuzz-2.0.2-r1::gentoo[cairo]
-# required by x11-libs/pango-1.42.4::gentoo
-# required by dev-libs/sway-1.0_rc2::gentoo
-#>=dev-python/markupsafe-0.23 python_targets_python2_7
 media-libs/harfbuzz icu
 sys-auth/pambase elogind
 media-libs/gst-plugins-base -opengl
 media-libs/gst-plugins-bad -opengl
 media-libs/gst-plugins-good -opengl
 media-libs/cogl -opengl
+media-libs/vulkan-loader layers wayland
+dev-util/vulkan-tools -vulkaninfo

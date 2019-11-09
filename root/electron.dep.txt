@@ -1,0 +1,223 @@
+
+These are the packages that would be merged, in order:
+
+Calculating dependencies  
+ * IMPORTANT: 6 news items need reading for repository 'gentoo'.
+ * Use eselect news read to view new items.
+
+..... done!
+[ebuild  N     ] dev-lang/yasm-1.3.0  USE="-nls -python" PYTHON_TARGETS="python2_7" 
+[ebuild  N     ] dev-libs/re2-0.2018.10.01  USE="-icu" 
+[ebuild  N     ] media-libs/opus-1.3  USE="-custom-modes -doc -static-libs" CPU_FLAGS_X86="sse" 
+[ebuild  N     ] net-libs/http-parser-2.8.1  USE="-static-libs" 
+[ebuild  N     ] dev-util/re2c-1.1.1 
+[ebuild  N     ] dev-libs/libpthread-stubs-0.4-r1 
+[ebuild  N     ] sys-devel/llvm-common-8.0.1 
+[ebuild  N     ] dev-libs/lzo-2.10  USE="(split-usr) -examples -static-libs" 
+[ebuild  N     ] acct-group/messagebus-0 
+[ebuild  N     ] dev-util/boost-build-1.65.0  USE="-examples -python -test" PYTHON_TARGETS="python2_7" 
+[ebuild  N     ] media-fonts/liberation-fonts-2.00.1-r3  USE="-X -fontforge" 
+[ebuild  N     ] dev-libs/libatomic_ops-7.6.10 
+[ebuild  N     ] virtual/ttf-fonts-1-r1 
+[ebuild  N     ] media-libs/libvpx-1.7.0  USE="highbitdepth postproc svc threads -doc -static-libs -test" CPU_FLAGS_X86="mmx sse sse2 -avx -avx2 -sse3 -sse4_1 -ssse3" 
+[ebuild  N     ] acct-user/messagebus-0 
+[ebuild  N     ] dev-libs/fribidi-1.0.5  USE="-static-libs" 
+[ebuild  N     ] dev-libs/gobject-introspection-common-1.60.2 
+[ebuild  N     ] dev-libs/vala-common-0.42.7 
+[ebuild  N     ] x11-themes/hicolor-icon-theme-0.17 
+[ebuild  N     ] media-libs/libexif-0.6.21-r3  USE="-doc -nls -static-libs" 
+[ebuild  N     ] dev-libs/boehm-gc-8.0.4  USE="cxx threads -static-libs" 
+[ebuild  N     ] sys-devel/clang-common-8.0.1 
+[ebuild  N     ] app-eselect/eselect-ruby-20190121 
+[ebuild  N    ~] app-eselect/eselect-electron-2.1 
+[ebuild  N     ] app-eselect/eselect-notify-send-0.1 
+[ebuild  N     ] app-eselect/eselect-opengl-1.3.1-r4 
+[ebuild  N     ] app-eselect/eselect-opencl-1.1.0-r4 
+[ebuild  N     ] virtual/perl-Carp-1.500.0-r1 
+[ebuild  N     ] virtual/perl-Exporter-5.730.0-r1 
+[ebuild  N     ] virtual/perl-Encode-2.970.0 
+[ebuild  N     ] virtual/perl-MIME-Base64-3.150.0-r5 
+[ebuild  N     ] dev-perl/LWP-MediaTypes-6.20.0-r1 
+[ebuild  N     ] dev-lang/nasm-2.14.02  USE="-doc" 
+[ebuild  N     ] virtual/perl-Compress-Raw-Zlib-2.76.0 
+[ebuild  N     ] dev-perl/Encode-Locale-1.50.0  USE="-test" 
+[ebuild  N     ] virtual/perl-Time-Local-1.250.0-r1 
+[ebuild  N     ] dev-perl/HTTP-Date-6.20.0-r1 
+[ebuild  N     ] virtual/perl-XSLoader-0.300.0-r1 
+[ebuild  N     ] media-libs/openh264-1.7.0-r1  USE="plugin -utils" 
+[ebuild  N     ] dev-perl/XML-XPath-1.420.0  USE="-examples -test" 
+[ebuild  N     ] dev-perl/HTML-Tagset-3.200.0-r1 
+[ebuild  N     ] dev-perl/HTML-Parser-3.720.0  USE="-test" 
+[ebuild  N     ] dev-perl/File-Listing-6.40.0-r1 
+[ebuild  N     ] dev-perl/Socket6-0.280.0 
+[ebuild  N     ] dev-perl/IO-HTML-1.1.0  USE="-test" 
+[ebuild  N     ] dev-perl/IPC-System-Simple-1.250.0  USE="-test" 
+[ebuild  N     ] virtual/perl-File-Path-2.150.0 
+[ebuild  N     ] virtual/perl-Storable-3.80.100_rc 
+[ebuild  N     ] virtual/perl-Compress-Raw-Bzip2-2.74.0-r1 
+[ebuild  N     ] virtual/perl-IO-Compress-2.74.0-r1 
+[ebuild  N     ] virtual/perl-IO-Socket-IP-0.390.0-r1 
+[ebuild  N     ] dev-perl/Sub-Name-0.210.0  USE="-suggested -test" 
+[ebuild  N     ] dev-perl/Try-Tiny-0.300.0  USE="-minimal -test" 
+[ebuild  N     ] virtual/perl-parent-0.236.0-r1 
+[ebuild  N     ] dev-perl/URI-1.730.0  USE="-test" 
+[ebuild  N     ] dev-perl/HTTP-Message-6.130.0  USE="-test" 
+[ebuild  N     ] dev-perl/HTTP-Cookies-6.40.0  USE="-test" 
+[ebuild  N     ] dev-perl/HTTP-Daemon-6.10.0-r2 
+[ebuild  N     ] dev-perl/HTTP-Negotiate-6.10.0-r1 
+[ebuild  N     ] dev-perl/WWW-RobotRules-6.20.0-r1 
+[ebuild  N     ] virtual/perl-Time-HiRes-1.975.900 
+[ebuild  N     ] dev-perl/File-BaseDir-0.70.0  USE="-test" 
+[ebuild  N     ] dev-perl/Tie-IxHash-1.230.0  USE="-test" 
+[ebuild  N     ] dev-perl/IO-Socket-INET6-2.720.0-r1 
+[ebuild  N     ] dev-perl/File-DesktopEntry-0.220.0  USE="-test" 
+[ebuild   R    ] sys-libs/zlib-1.2.11-r2  USE="minizip*" 
+[ebuild  N     ] dev-util/ninja-1.8.2  USE="-doc -emacs -test -vim-syntax" 
+[ebuild  N     ] media-libs/freetype-2.9.1-r3  USE="adobe-cff bzip2 cleartype_hinting -X -bindist -debug -doc -fontforge -harfbuzz -infinality -png -static-libs -utils" 
+[ebuild  N     ] dev-libs/icu-64.2  USE="-debug -doc -examples -static-libs" 
+[ebuild   R    ] dev-libs/libxml2-2.9.9-r1  USE="icu*" 
+[ebuild  N     ] dev-util/glib-utils-2.60.6  PYTHON_SINGLE_TARGET="python3_6 -python3_5 (-python3_7)" PYTHON_TARGETS="python3_6 -python3_5 (-python3_7)" 
+[ebuild  N     ] media-libs/libpng-1.6.37  USE="-apng (-neon) -static-libs" CPU_FLAGS_X86="sse" 
+[ebuild  N     ] dev-libs/nspr-4.22  USE="-debug" 
+[ebuild  NS    ] app-text/docbook-xml-dtd-4.2-r2 [4.1.2-r6]
+[ebuild  N     ] x11-libs/xtrans-1.4.0  USE="-doc" 
+[ebuild  N     ] dev-libs/wayland-1.17.0  USE="-doc -static-libs" 
+[ebuild  N     ] dev-util/gdbus-codegen-2.60.6  PYTHON_SINGLE_TARGET="python3_6 -python3_5 (-python3_7)" PYTHON_TARGETS="python3_6 -python3_5 (-python3_7)" 
+[ebuild  N     ] media-libs/alsa-lib-1.1.8  USE="thread-safety -alisp -debug -doc -python" PYTHON_SINGLE_TARGET="python3_6 -python2_7 -python3_5 (-python3_7)" PYTHON_TARGETS="python2_7 python3_6 -python3_5 (-python3_7)" 
+[ebuild  N     ] media-libs/libjpeg-turbo-1.5.3-r2  USE="-java -static-libs" 
+[ebuild  N     ] dev-libs/libuv-1.28.0  USE="-static-libs" 
+[ebuild  N     ] dev-libs/wayland-protocols-1.18 
+[ebuild  N     ] dev-db/sqlite-3.29.0  USE="readline -debug -doc -icu -secure-delete -static-libs -tcl -test -tools" 
+[ebuild   R    ] dev-lang/python-2.7.16  USE="sqlite*" 
+[ebuild  N     ] dev-libs/libyaml-0.2.2  USE="-doc -static-libs -test" 
+[ebuild  N     ] dev-libs/nss-3.46  USE="nss-pem -cacert -utils" 
+[ebuild  N     ] net-dns/c-ares-1.13.0  USE="-static-libs" 
+[ebuild  N     ] sys-apps/pciutils-3.5.6  USE="kmod udev zlib -dns -static-libs" 
+[ebuild  N     ] media-libs/flac-1.3.2-r1  USE="cxx (-altivec) -debug -ogg -static-libs" CPU_FLAGS_X86="sse" 
+[ebuild  N     ] dev-util/gn-0.1463 
+[ebuild  N     ] dev-python/beautifulsoup-3.2.1-r1  PYTHON_TARGETS="python2_7 (-pypy)" 
+[ebuild  N     ] dev-perl/Net-SSLeay-1.820.0  USE="-examples -libressl -minimal -test" 
+[ebuild  N     ] dev-perl/IO-Socket-SSL-2.52.0  USE="-examples -idn" 
+[ebuild  N     ] dev-perl/Net-HTTP-6.170.0  USE="-minimal -test" 
+[ebuild  N     ] app-crypt/rhash-1.3.6-r1  USE="ssl -debug -libressl -nls -static-libs" 
+[ebuild  N     ] app-arch/libarchive-3.3.3  USE="acl bzip2 e2fsprogs iconv lzma threads xattr zlib -expat -libressl -lz4 -lzo -nettle -static-libs -zstd" 
+[ebuild  N     ] x11-libs/libpciaccess-0.16  USE="zlib -static-libs" 
+[ebuild  N     ] x11-libs/libxkbcommon-0.8.4  USE="-X -doc -static-libs -test" 
+[ebuild  NS    ] app-text/docbook-xml-dtd-4.3-r1 [4.1.2-r6]
+[ebuild  N     ] sys-libs/libunwind-1.2.1-r1  USE="static-libs -debug -debug-frame -doc -libatomic -lzma" 
+[ebuild  N     ] sys-libs/binutils-libs-2.32-r1  USE="-64-bit-bfd -multitarget -nls -static-libs" 
+[ebuild  NS    ] app-text/docbook-xml-dtd-4.4-r2 [4.1.2-r6]
+[ebuild  NS    ] app-text/docbook-xml-dtd-4.5-r1 [4.1.2-r6]
+[ebuild  NS    ] sys-devel/autoconf-2.13-r1 [2.69-r4]
+[ebuild  N     ] dev-lang/spidermonkey-60.5.2_p0-r2  USE="jit system-icu -custom-cflags -custom-optimization -debug -minimal -test" 
+[ebuild  N     ] dev-libs/boost-1.65.0  USE="threads -context -debug -doc -icu -mpi -nls -python -static-libs -tools" PYTHON_TARGETS="python2_7 python3_6 -python3_5" 
+[ebuild  N     ] net-libs/nghttp2-1.39.2  USE="cxx threads -debug -hpack-tools -jemalloc -libressl -static-libs -test -utils -xml" 
+[ebuild  N     ] net-libs/nodejs-8.12.0  USE="npm snapshot ssl -debug -doc -icu -inspector -systemtap -test" CPU_FLAGS_X86="sse2" 
+[ebuild  N     ] dev-util/ragel-6.10  USE="-vim-syntax" 
+[ebuild  N     ] x11-base/xcb-proto-1.13  PYTHON_TARGETS="python2_7 python3_6 -python3_5 (-python3_7)" 
+[ebuild  N     ] virtual/jpeg-0-r3  USE="-static-libs" 
+[ebuild  N     ] media-libs/libwebp-1.0.2  USE="jpeg png -gif (-neon) -opengl -static-libs -swap-16bit-csp -tiff" CPU_FLAGS_X86="sse2 -sse4_1" 
+[ebuild  N     ] www-client/w3m-0.5.3_p20180125  USE="ssl unicode -X -fbcon -gdk-pixbuf -gpm -imlib -libressl -lynxkeymap -nls -nntp -xface" L10N="-de -ja" 
+[ebuild  N     ] virtual/w3m-0 
+[ebuild  N     ] app-text/xmlto-0.0.28-r1  USE="text -latex" 
+[ebuild  N     ] dev-util/meson-0.51.2  USE="-test" PYTHON_TARGETS="python3_6 -python3_5 (-python3_7)" 
+[ebuild  N     ] x11-base/xorg-proto-2019.1 
+[ebuild  N     ] x11-libs/libdrm-2.4.99  USE="libkms -valgrind" VIDEO_CARDS="intel radeon -amdgpu (-exynos) (-freedreno) -nouveau (-omap) (-tegra) (-vc4) (-vivante) -vmware" 
+[ebuild  N     ] x11-libs/libICE-1.0.10  USE="ipv6 -static-libs" 
+[ebuild  N     ] dev-python/simplejson-3.13.2  PYTHON_TARGETS="python2_7 python3_6 (-pypy) (-pypy3) -python3_5" 
+[ebuild  N     ] dev-python/six-1.12.0  USE="-doc -test" PYTHON_TARGETS="python2_7 python3_6 (-pypy) (-pypy3) -python3_5 (-python3_7)" 
+[ebuild  N     ] dev-python/webencodings-0.5.1  USE="-test" PYTHON_TARGETS="python2_7 python3_6 (-pypy) (-pypy3) -python3_5 (-python3_7)" 
+[ebuild  N     ] dev-python/html5lib-1.0.1  USE="-test" PYTHON_TARGETS="python2_7 python3_6 (-pypy) (-pypy3) -python3_5 (-python3_7)" 
+[ebuild  N     ] dev-python/cython-0.29.4  USE="-doc -emacs -test" PYTHON_TARGETS="python2_7 python3_6 -python3_5 (-python3_7)" 
+[ebuild  N     ] dev-python/lxml-4.3.3  USE="threads -doc -examples -test" PYTHON_TARGETS="python2_7 python3_6 (-pypy) -python3_5 (-python3_7)" 
+[ebuild  N     ] dev-python/beautifulsoup-4.5.1  USE="-doc -test" PYTHON_TARGETS="python2_7 python3_6 (-pypy) (-pypy3) -python3_5" 
+[ebuild  N     ] x11-libs/libSM-1.2.3  USE="ipv6 uuid -doc -static-libs" 
+[ebuild  N     ] x11-libs/libXau-1.0.9  USE="-static-libs" 
+[ebuild  N     ] x11-libs/libXdmcp-1.1.3  USE="-doc -static-libs" 
+[ebuild  N     ] x11-libs/libxcb-1.13.1  USE="-doc (-selinux) -static-libs -test -xkb" 
+[ebuild  N     ] x11-libs/libX11-1.6.8  USE="ipv6 -doc -static-libs -test" 
+[ebuild  N     ] x11-libs/libXext-1.3.4  USE="-doc -static-libs" 
+[ebuild  N     ] x11-libs/libXfixes-5.0.3-r1  USE="-static-libs" 
+[ebuild  N     ] x11-libs/libXrender-0.9.10-r1  USE="-static-libs" 
+[ebuild  N     ] x11-libs/libXdamage-1.1.5  USE="-static-libs" 
+[ebuild  N     ] x11-libs/libXi-1.7.10  USE="-doc -static-libs" 
+[ebuild  N     ] x11-libs/libXrandr-1.5.2  USE="-doc -static-libs" 
+[ebuild  N     ] x11-libs/libXcomposite-0.4.5  USE="-doc -static-libs" 
+[ebuild  N     ] x11-libs/libXcursor-1.2.0  USE="-doc -static-libs" 
+[ebuild  N     ] x11-libs/libXScrnSaver-1.2.3  USE="-static-libs" 
+[ebuild  N     ] x11-libs/libXtst-1.2.3-r1  USE="-doc -static-libs" 
+[ebuild  N     ] dev-perl/X11-Protocol-0.560.0-r1 
+[ebuild  N     ] x11-apps/xprop-1.2.4 
+[ebuild  N     ] x11-libs/libXt-1.2.0  USE="-doc -static-libs -test" 
+[ebuild  N     ] x11-libs/libXmu-1.1.3  USE="ipv6 -doc -static-libs" 
+[ebuild  N     ] x11-apps/xset-1.2.4 
+[ebuild  N     ] x11-libs/libxshmfence-1.3-r1  USE="-static-libs" 
+[ebuild  N     ] x11-libs/libXxf86vm-1.1.4-r1  USE="-static-libs" 
+[ebuild  N     ] x11-libs/pixman-0.38.4  USE="(-altivec) (-loongson2f) (-neon)" CPU_FLAGS_X86="mmxext sse2 -ssse3" 
+[ebuild  N     ] dev-python/markupsafe-0.23  PYTHON_TARGETS="python2_7 python3_6 (-pypy) (-pypy3) -python3_5" 
+[ebuild  N     ] dev-python/mako-1.0.6  USE="-doc -test" PYTHON_TARGETS="python2_7 python3_6 (-pypy) -python3_5" 
+[ebuild  N     ] dev-libs/glib-2.60.6  USE="dbus mime xattr -debug (-fam) -gtk-doc (-selinux) -static-libs -systemtap -test -utils" 
+[ebuild  N     ] x11-misc/shared-mime-info-1.10  USE="-test" 
+[ebuild  N     ] dev-util/desktop-file-utils-0.23  USE="-emacs" 
+[ebuild  N     ] dev-util/cmake-3.14.6  USE="ncurses -doc -emacs -qt5 -system-jsoncpp -test" 
+[ebuild  N     ] sys-devel/llvm-8.0.1  USE="libffi ncurses -debug -doc -exegesis -gold -libedit -test -xar -xml" LLVM_TARGETS="AMDGPU BPF (X86) -AArch64 -ARM -Hexagon -Lanai -MSP430 -Mips -NVPTX -PowerPC -Sparc -SystemZ -WebAssembly -XCore" 
+[ebuild  N     ] sys-devel/clang-8.0.1  USE="static-analyzer -debug -default-compiler-rt -default-libcxx -doc -test -xml -z3" LLVM_TARGETS="AMDGPU BPF (X86) -AArch64 -ARM -Hexagon -Lanai -MSP430 -Mips -NVPTX -PowerPC -Sparc -SystemZ -WebAssembly -XCore" PYTHON_TARGETS="python2_7" 
+[ebuild  N     ] dev-lang/vala-0.42.7  USE="-test -valadoc" 
+[ebuild  N     ] sys-libs/compiler-rt-8.0.1  USE="clang -test" 
+[ebuild  N     ] sys-libs/compiler-rt-sanitizers-8.0.1  USE="clang libfuzzer profile sanitize xray -test" 
+[ebuild  N     ] sys-libs/libomp-8.0.1  USE="(-cuda) -hwloc -offload -ompt -test" 
+[ebuild  N     ] sys-devel/clang-runtime-8.0.1  USE="compiler-rt openmp sanitize (-crt) -libcxx" 
+[ebuild  N     ] dev-libs/gobject-introspection-1.60.2  USE="-cairo -doctool -test" PYTHON_SINGLE_TARGET="python3_6 -python3_5 (-python3_7)" PYTHON_TARGETS="python3_6 -python3_5 (-python3_7)" 
+[ebuild  N     ] x11-libs/gdk-pixbuf-2.38.1  USE="introspection -X -gtk-doc -jpeg -tiff" 
+[ebuild  N     ] dev-libs/atk-2.30.0  USE="introspection -gtk-doc" 
+[ebuild  N     ] app-arch/snappy-1.1.7  USE="(-static-libs) -test" 
+[ebuild  N     ] dev-perl/File-MimeInfo-0.280.0  USE="-test" 
+[ebuild  N     ] dev-util/gtk-update-icon-cache-3.24.8 
+[ebuild  N     ] dev-libs/libcroco-0.6.13  USE="-test" 
+[ebuild  N     ] dev-libs/libclc-0.2.0_pre20190313  VIDEO_CARDS="r600 -nvidia -radeonsi" 
+[ebuild  N     ] dev-lang/ruby-2.5.7  USE="berkdb gdbm ipv6 rdoc ssl -debug -doc -examples -jemalloc -libressl -rubytests -socks5 -static-libs -tk -xemacs" 
+[ebuild  N     ] dev-lang/ruby-2.4.9  USE="berkdb gdbm ipv6 rdoc ssl -debug -doc -examples -jemalloc -libressl -rubytests -socks5 -static-libs -tk -xemacs" 
+[ebuild  N     ] dev-ruby/rubygems-2.7.9  USE="-server -test" RUBY_TARGETS="ruby24 ruby25" 
+[ebuild  N     ] virtual/rubygems-15  RUBY_TARGETS="ruby24 ruby25 (-ruby26)" 
+[ebuild  N     ] dev-ruby/did_you_mean-1.2.1  USE="-test" RUBY_TARGETS="ruby25" 
+[ebuild  N     ] dev-ruby/rake-12.3.1  USE="-doc -test" RUBY_TARGETS="ruby24 ruby25" 
+[ebuild  N     ] dev-ruby/minitest-5.10.3  USE="-doc -test" RUBY_TARGETS="ruby24 ruby25" 
+[ebuild  N     ] dev-ruby/json-2.1.0  USE="-doc -test" RUBY_TARGETS="ruby24 ruby25" 
+[ebuild  N     ] dev-ruby/net-telnet-0.1.1-r1  USE="-doc -test" RUBY_TARGETS="ruby24 ruby25" 
+[ebuild  N     ] dev-ruby/power_assert-1.1.1  USE="-doc -test" RUBY_TARGETS="ruby24 ruby25" 
+[ebuild  N     ] dev-ruby/test-unit-3.2.7  USE="-doc -test" RUBY_TARGETS="ruby24 ruby25" 
+[ebuild  N     ] dev-ruby/xmlrpc-0.3.0  USE="-doc -test" RUBY_TARGETS="ruby24 ruby25 (-ruby26)" 
+[ebuild  N     ] dev-ruby/did_you_mean-1.1.2  USE="-test" RUBY_TARGETS="ruby24" 
+[ebuild  N     ] dev-ruby/kpeg-1.1.0-r1  USE="-doc -test" RUBY_TARGETS="ruby24 ruby25 (-ruby26)" 
+[ebuild  N     ] dev-ruby/racc-1.4.14  USE="-doc -test" RUBY_TARGETS="ruby24 ruby25 (-ruby26)" 
+[ebuild  N     ] dev-ruby/rdoc-6.1.2  USE="-doc -test" RUBY_TARGETS="ruby24 ruby25 (-ruby26)" 
+[ebuild  N     ] dev-libs/ocl-icd-2.2.12  USE="khronos-headers" 
+[ebuild  N    *] media-libs/mesa-9999  USE="X classic dri3 egl gallium gbm gles2 llvm opencl unwind wayland -d3d9 -debug -gles1 (-libglvnd) -lm-sensors -osmesa -pax_kernel (-selinux) -test -vaapi -valgrind -vdpau -vulkan -vulkan-overlay -xa -xvmc" VIDEO_CARDS="i965 intel r600 radeon (-freedreno) -i915 -iris (-lima) -nouveau (-panfrost) -r100 -r200 -r300 -radeonsi (-vc4) -virgl (-vivante) -vmware" 
+[ebuild  N     ] media-libs/libepoxy-1.5.3-r1  USE="X egl -test" 
+[ebuild  N     ] virtual/opengl-7.0-r2 
+[ebuild  N     ] media-libs/fontconfig-2.13.0-r4  USE="-doc -static-libs" 
+[ebuild  N     ] app-eselect/eselect-fontconfig-1.1-r1 
+[ebuild  N     ] x11-libs/cairo-1.16.0-r3  USE="X debug glib svg utils (-aqua) (-gles2) -opengl -static-libs -valgrind -xcb" 
+[ebuild  N     ] media-libs/harfbuzz-2.6.1  USE="cairo glib icu introspection truetype -debug -graphite -static-libs -test" 
+[ebuild  N     ] x11-libs/pango-1.42.4-r2  USE="introspection -X -test" 
+[ebuild  N     ] gnome-base/librsvg-2.40.20  USE="introspection vala -tools" 
+[ebuild  N     ] media-video/ffmpeg-4.1.3  USE="alsa bzip2 encode fontconfig gpl hardcoded-tables iconv network postproc threads zlib -X (-altivec) -amr -amrenc (-appkit) -bluray -bs2b -cdio -chromaprint -chromium -codec2 -cpudetection -debug -doc -fdk -flite -frei0r -fribidi -gcrypt -gme -gmp -gnutls -gsm -iec61883 -ieee1394 -jack -jpeg2k -kvazaar -ladspa -libaom -libass -libcaca -libdrm -libilbc -libressl -librtmp -libsoxr -libv4l -libxml2 -lv2 -lzma (-mipsdspr1) (-mipsdspr2) (-mipsfpu) (-mmal) -modplug -mp3 -openal -opencl -opengl -openh264 -openssl -opus -oss -pic -pulseaudio -rubberband -samba -sdl -snappy -speex -srt -ssh -static-libs -svg -test -theora -truetype -twolame -v4l -vaapi -vdpau -vorbis -vpx -wavpack -webp -x264 -x265 -xcb -xvid -zeromq -zimg -zvbi" CPU_FLAGS_X86="mmx mmxext sse sse2 -3dnow -3dnowext -aes -avx -avx2 -fma3 -fma4 -sse3 -sse4_1 -sse4_2 -ssse3 -xop" FFTOOLS="aviocat cws2fws ffescape ffeval ffhash fourcc2pixfmt graph2dot ismindex pktdumper qt-faststart sidxindex trasher" VIDEO_CARDS="-nvidia" 
+[ebuild  N     ] dev-perl/libwww-perl-6.270.0  USE="ssl -test" 
+[ebuild  N     ] dev-perl/LWP-Protocol-https-6.70.0  USE="-test" 
+[ebuild  N     ] dev-perl/XML-Twig-3.520.0  USE="-nls -test" 
+[ebuild  N     ] sys-auth/elogind-241.3  USE="acl pam policykit -debug -doc (-selinux)" 
+[ebuild  N     ] sys-apps/dbus-1.12.16  USE="elogind -X -debug -doc (-selinux) -static-libs -systemd -test -user-session" 
+[ebuild  N     ] gnome-base/dconf-0.30.1  USE="-gtk-doc -test" 
+[ebuild  N     ] sys-auth/polkit-0.115-r4  USE="elogind introspection pam -consolekit -examples -gtk -jit -kde -nls (-selinux) -systemd -test" 
+[ebuild  N     ] dev-perl/Net-DBus-1.1.0  USE="-test" 
+[ebuild  N     ] app-accessibility/at-spi2-core-2.30.1  USE="introspection -X -gtk-doc -test" 
+[ebuild  N     ] x11-misc/xdg-utils-1.1.3-r1  USE="-doc" 
+[ebuild  N     ] app-accessibility/at-spi2-atk-2.30.1  USE="-test" 
+[ebuild  N     ] x11-libs/gtk+-3.24.10  USE="X examples introspection wayland (-aqua) -broadway -cloudprint -colord -cups -gtk-doc -test -vim-syntax -xinerama" 
+[ebuild  N     ] x11-themes/adwaita-icon-theme-3.30.1  USE="-branding" 
+[ebuild  N     ] x11-misc/notification-daemon-3.20.0 
+[ebuild  N     ] virtual/notification-daemon-0  USE="-gnome -kde" 
+[ebuild  N     ] x11-libs/libnotify-0.7.7-r1  USE="introspection -test" 
+[ebuild  N    ~] dev-util/electron-2.0.17-r2  USE="proprietary-codecs system-ffmpeg system-libvpx system-ssl tcmalloc -cups -custom-cflags -gconf -gnome-keyring -kerberos -lto (-neon) -pic -pulseaudio (-selinux) -test" L10N="am ar bg bn ca cs da de el en-GB es es-419 et fa fi fil fr gu he hi hr hu id it ja kn ko lt lv ml mr ms nb nl pl pt-BR pt-PT ro ru sk sl sr sv sw ta te th tr uk vi zh-CN zh-TW" 
+
+Would you like to add these changes to your config files? [Yes/No] Interrupted.

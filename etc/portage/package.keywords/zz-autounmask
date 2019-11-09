@@ -38,3 +38,15 @@
 # required by dev-util/electron-2.0.17-r2::gentoo
 # required by electron (argument)
 =app-eselect/eselect-electron-2.1 ~amd64
+# required by sys-apps/nix-2.3.1::gentoo
+# required by nix (argument)
+=dev-libs/boost-1.71.0 ~amd64
+# required by nix (argument)
+=sys-apps/nix-2.3.1 ~amd64
+# required by dev-libs/boost-1.71.0::gentoo
+# required by sys-apps/nix-2.3.1::gentoo
+# required by nix (argument)
+=dev-util/boost-build-1.71.0 ~amd64
+# required by sys-apps/nix-2.3.1::gentoo
+# required by nix (argument)
+=dev-libs/editline-1.16.0 ~amd64
