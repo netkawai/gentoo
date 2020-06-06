@@ -1,0 +1,4 @@
+>set prefix=(hd0,4)/grub
+>set root=(hd0,4)
+>insmod normal
+>normal

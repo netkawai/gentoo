@@ -1,0 +1,28 @@
+# package.use
+sys-kernel/linux-firmware savedconfig
+sys-libs/glibc doc
+x11-base/xorg-server unwind wayland
+x11-terms/xterm truetype toolbar -unicode
+x11-libs/libdrm libkms
+x11-libs/libxcb xkb
+x11-wm/blackbox truetype
+sys-devel/llvm doc
+sys-devel/clang doc
+media-libs/libpng apng
+media-libs/mesa gallium gles2 dri3 gbm wayland bindist llvm unwind opencl -classic 
+x11-apps/mesa-progs egl gles2
+www-client/firefox bindist
+*/* PYTHON_TARGETS: -* python2_7 python3_6 PYTHON_SINGLE_TARGET: -* python3_6
+dev-python/* PYTHON_TARGETS: -* python3_6
+dev-python/setuptools PYTHON_TARGETS: python2_7 python3_6 PYTHON_SINGLE_TARGET: -* python3_6
+dev-python/certifi PYTHON_TARGETS: python2_7 python3_6 PYTHON_SINGLE_TARGET: -* python3_6
+dev-python/m2crypto PYTHON_TARGETS: python2_7 python3_6
+dev-python/bz2file PYTHON_TARGETS: python2_7 python3_6
+dev-python/ipaddress PYTHON_TARGETS: python2_7 python3_6
+dev-python/pyblake2 PYTHON_TARGETS: python2_7 python3_6
+dev-python/pyxattr PYTHON_TARGETS: python2_7 python3_6
+sys-boot/grub:2 mount
+dev-libs/libnl PYTHON_TARGETS: -* python3_6
+sys-apps/util-linux static-libs
+dev-libs/efl wayland egl drm sound examples -X
+x11-wm/enlightenment wayland -X
